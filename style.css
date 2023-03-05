@@ -188,6 +188,11 @@ a {
   border: 1px solid rgb(29, 155, 239);
 }
 
+.search-bar:focus-within img{
+  filter: brightness(0) saturate(100%) invert(49%) sepia(31%) saturate(1887%)
+    hue-rotate(170deg) brightness(98%) contrast(92%);
+}
+
 .trends {
   display: flex;
   flex-direction: column;
