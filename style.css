@@ -549,3 +549,17 @@ a {
     width: 100%;
   }
 }
+
+@media (max-width: 500px) {
+  .header{
+    display: none;
+  }
+
+  .main{
+    grid-column: span 12;
+  }
+
+  .main__compose-tweet__field-cta__icon img:nth-of-type(even){
+    display: none;
+  }
+}
